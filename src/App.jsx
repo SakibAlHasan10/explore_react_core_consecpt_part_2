@@ -1,5 +1,6 @@
 import './App.css'
 import Players from './Players'
+import Uses from './Uses'
 import Counter from './counter'
 
 function App() {
@@ -16,6 +17,7 @@ const addOfFour = (four) =>{
     <>
       
       <h3>React Core Concepts 2</h3>
+      <Uses></Uses>
       <Players></Players>
       <button onClick={handleClick}>Click me</button>
       <button onClick={handleClick2}>Click me2</button>
