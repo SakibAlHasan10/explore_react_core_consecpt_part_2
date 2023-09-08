@@ -1,4 +1,5 @@
 import './App.css'
+import Players from './Players'
 import Counter from './counter'
 
 function App() {
@@ -15,6 +16,7 @@ const addOfFour = (four) =>{
     <>
       
       <h3>React Core Concepts 2</h3>
+      <Players></Players>
       <button onClick={handleClick}>Click me</button>
       <button onClick={handleClick2}>Click me2</button>
       <button onClick={() => {alert('inline function')}}>Clicked button 3</button>
