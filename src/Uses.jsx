@@ -18,4 +18,5 @@ export default function Uses(){
  *  1. declare a state to hold the data
  *  2. useEffects with call back function and dependency array
  * 3. use fetch to load data
+ * 4. set loaded data to the state
 */
